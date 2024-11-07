@@ -19,7 +19,7 @@
 		th, td {
 			border: 1px solid black;
 			padding: .2em 1em .2em .5em;
-			text-align: center;
+			text-align: left;
 			vertical-align: middle;
 		}
 		.right {
@@ -36,6 +36,7 @@
 
 <body>
 <table>
+	<caption>Employee Table</caption>
 	<thead>
 		<tr>
 			<th class="left">Department</th>
@@ -46,18 +47,16 @@
 	</thead>
 	<tbody>
 		<tr> 
-			<td class="left">Editorial</td>
+			<th rowspan="3">Editorial</th>
+				<td>Joel Murach</td>
+			<td>joelmurach@yahoo.com</td>
+			<td class="right">22</td>
 		</tr>
 		<tr> 
 			<td class="left">Marketing</td>
 		</tr>
 		<tr> 
 			<td class="left">Customer Service</td>
-		</tr>
-		<tr>
-			<td>Joel Murach</td>
-			<td>joelmurach@yahoo.com</td>
-			<td class="right">22</td>
 		</tr>
 		<tr>
 			<td>Anne Boehm</td>
